@@ -6,3 +6,5 @@ Tecnologias usadas:
 HTML
 <br />
 CSS -> FlexBox e Responsividade
+
+<img src="./images/Desafio 1 -Blog.png" alt="Print da tela">
