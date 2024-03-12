@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  box-sizing: boder-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background-color: #17171a;
+  width: 100%;
+  height: 250px;
+  row-gap: 30px;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1 span {
+  color: #e07b67;
+}
+
+.barra__pesquisa {
+  position: relative;
+}
+
+.barra__pesquisa input {
+  padding-left: 60px;
+  width: 80em;
+  height: 50px;
+  padding: 16px, 24px, 16px, 24px;
+  gap: 16px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #252529;
+  color: #fff;
+}
+.barra__pesquisa input::placeholder {
+  color: #afabb6;
+}
+.barra__pesquisa img {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main__container {
+  background-color: #121214;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container {
+  height: auto;
+  max-width: 900px;
+  color: #afabb6;
+  padding: 20px 40px;
+  border-radius: 10px;
+  line-height: 30px;
+  border: 1px solid #252529;
+  background-color: #17171a;
+}
+
+.container:active {
+  border: 1px solid #e07b67;
+}
+
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container span {
+  font-size: 14px;
+  color: #e07b67;
+}

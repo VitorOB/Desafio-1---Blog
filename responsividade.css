@@ -1,0 +1,74 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .barra__pesquisa input {
+    width: 22em;
+  }
+
+  .main__container {
+    height: 120vh;
+  }
+
+  .container {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 767px) {
+  .barra__pesquisa input {
+    width: 22em;
+  }
+
+  .main__container {
+    height: 115vh;
+  }
+
+  .container {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .barra__pesquisa input {
+    width: 22em;
+  }
+
+  .main__container {
+    height: 80vh;
+  }
+
+  .container {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
